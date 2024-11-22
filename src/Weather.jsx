@@ -76,10 +76,17 @@ export default function  Weather(props){
 
         
            
-            <footer className="footer">
-                <p>Coded by Chinelo , open sourced in  <a href="https://github.com/sophiapurple/final-react-weather-app-vite"><i class="fa-brands fa-github github"></i>
-                {" "} </a>{" "}Github
-                  </p>
+            <footer>
+                 <div className="footer d-flex ">
+                < span><p>Coded by Chinelo , open sourced in </p></span>
+                  <span className="gitIcon "> <a href="https://github.com/sophiapurple/final-react-weather-app-vite"><i class="fa-brands fa-github github-icon"></i>
+                   </a> 
+                 </span> 
+               <span className="render"> <p>and hosted in</p> </span>
+               <a href="https://weather-project-2s47.onrender.com" className="render-a">render</a>
+              
+
+                 </div>
                 </footer>
     
         </div>

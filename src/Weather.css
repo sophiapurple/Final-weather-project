@@ -1,12 +1,14 @@
 :root{
     --font-family:"Pacifico";
     --body-font:"Amaranth", sans-serif;
+    
 }
 
 @media(max-width:800px){
     .weather-wrapper{
         position: relative;
         bottom: 10px;
+        text-align: center;
        
     }
     .city-temp .temp{
@@ -17,8 +19,7 @@
 
     .city-temp .city{
         font-size:40px;
-
-        
+   
     }
 
     .forcast .forcastIcon{
@@ -35,35 +36,48 @@
         margin: 0;
         margin-top: 20px;
         position: relative;
-        right: 20px;
+        right: 10px;
     }
-    .footer p{
+
+    footer .github-icon{
+        position: relative;
+        bottom: 22px;
+    }
+
+    footer p{
     position: relative;
-    bottom: 30px;
+    bottom: 20px;
+   }
+   
+    .render-a{
+    position: relative;
+    bottom: 20px;
    }
     .weather-wrapper footer{
         font-size: 10px;
     }
+
     .max-min{
-    font-size: 1px;
+    font-size: 10px;
     margin:0;
 }
+
 .minTemperature{
     padding-left: 8px;
 }
 
+
      .weather-wrapper .input{
-        padding: 10px;
+        padding: 10px 8px;
         font-size: 15px;
+        
 
     }
     .weather-wrapper .submit-button{
-        padding: 5px 9px;
+        padding: 6px;
+        
 
     }
-
-
- 
 }
 
 
@@ -86,7 +100,7 @@ body{
 font-size: 50px;
 font-weight: bolder;
 font-family:var(--body-font);
-padding-right: 100px;
+padding-right: 40px;
 
 
 }
@@ -139,9 +153,20 @@ footer{
     font-style: normal;
     padding-bottom:60px ;
     }
+
 .github{
+    color:var(--primary-color);
+    margin: 0 3px 0 8px;
+    
+}
+
+.github-icon{
     color:mediumaquamarine;
     font-size: 20px;
+    position: relative;
+    left: 5px;
+     
+    
 }
 p a{
     color:mediumaquamarine;
@@ -161,6 +186,21 @@ bottom: 20px;
     padding-left: 9px;
 }
 
+.render{
+   position: relative;
+   left: 8px;
+}
+.render-a{
+    color: blanchedalmond;
+    position: relative;
+    left: 12px;
+    text-decoration: underline;
+}
+.render-a:hover {
+    color: var(--primary-color);
+    
+  
+}
 .submit-button{
 border: 1px solid blanchedalmond;
 padding: 10px 14px;
