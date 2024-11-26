@@ -83,7 +83,7 @@ export default function  Weather(props){
                    </a> 
                  </span> 
                <span className="render"> <p>and hosted in</p> </span>
-               <a href="https://weather-project-2s47.onrender.com" className="render-a">render</a>
+               <a href="https://final-weather-project.onrender.com" className="render-a">render</a>
               
 
                  </div>
