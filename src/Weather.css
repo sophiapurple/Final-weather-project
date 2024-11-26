@@ -100,7 +100,6 @@
         bottom: 10px;
         max-width: 95px;  
 
-
     }
 
     .weather-wrapper footer{
@@ -121,7 +120,7 @@
     body{
        background-size: cover;
        margin:  0;
-       padding: 0 400px 20px 0;
+       padding: 0 420px 20px 0;
       
        
        
